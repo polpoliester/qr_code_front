@@ -1,0 +1,35 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit";
+
+}
+
+.card{
+    background-color: white;
+    margin: 120px auto;/*125px de espacio arriba y abajo, auto para centrar horizontalmente*/
+    width: 320px;
+    height: 499px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.qr-code{
+    margin: auto;
+    padding: 10px;
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: 700px;
+    color: hsl(218, 44%, 22%);
+}
+
+.description{
+    color: hsl(216, 15%, 48%);
+    font-weight: 400px;
+    font-size: 15px;
+}
